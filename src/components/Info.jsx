@@ -60,17 +60,15 @@ const Info = () => {
         <InfoLeftWrapper>
           <InfoName class="aboutName">César Carrasco</InfoName>
           <InfoSubName class="aboutDescription">
-            Desarrollador de Software.
+            Software Developer
           </InfoSubName>
 
           <InfoDescription class="aboutInfo">
-            Determinado y productivo con una gran habilidad en ofrecer
-            soluciones creativas y eficientes. Competente en Javascript, Node.js
-            y HTML. Dedicado a aprender tecnologías y lenguajes adicionales
-            (actualmente solidifico mis conocimientos en React y hago un curso
-            de Python). Con regularidad veo charlas de figuras importantes en el
-            mundo de la tecnología. Busco un cargo junior en una empresa donde
-            pueda aprender, crecer y ser un activo valioso.
+            Hi, I'm a software developer 💻 focusing mainly on Javascript &
+            Python 🐍 in love with the excitement of building and sharing
+            products. NodeJS & React is my current stack of choice since they
+            work so well together. Working, building and securing APIs on a
+            daily basis is how I stay updated in the best practices of coding.
           </InfoDescription>
           <SocialMedia />
         </InfoLeftWrapper>

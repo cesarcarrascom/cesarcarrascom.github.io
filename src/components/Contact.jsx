@@ -134,7 +134,7 @@ const Contact = () => {
           </ContactInfoItem>
           <ContactInfoItem>
             <HomeIcon />
-            <InfoItemText>Concepcion, Bio Bio, Chile </InfoItemText>
+            <InfoItemText>Santiago, Chile </InfoItemText>
           </ContactInfoItem>
         </ContactLeft>
         <ContactRight>
