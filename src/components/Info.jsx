@@ -60,7 +60,7 @@ const Info = () => {
         <InfoLeftWrapper>
           <InfoName class="aboutName">César Carrasco</InfoName>
           <InfoSubName class="aboutDescription">
-            Software Developer.
+            Desarrollador de Software.
           </InfoSubName>
 
           <InfoDescription class="aboutInfo">
