@@ -1,9 +1,9 @@
 const data = [
   {
     id: 1,
-    title: "Jobs App API",
+    title: "Jobs Posting API",
     url: "https://github.com/cesarcarrascom/jobs-api",
-    description: "lorem ipsum something",
+    description: "",
     tags: ["javascript", "nodejs", "jwt"],
   },
   {

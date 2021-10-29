@@ -23,8 +23,10 @@ const ItemTitleWrapper = styled.div`
   //   background-color: yellow;
   ${mobile({ flexDirection: "column" })};
 `;
-const ItemTitle = styled.span`
+const ItemTitle = styled.a`
   //   background-color: teal;
+  text-decoration: none;
+  color: inherit;
   flex: 2;
   font-size: 30px;
   font-weight: 700;
@@ -70,7 +72,10 @@ const PortfolioItem = ({ item }) => {
   return (
     <Container>
       <ItemTitleWrapper>
-        <ItemTitle>{item.title}</ItemTitle>
+        <ItemTitle target="_blank" rel="noopener noreferrer" href={item.url}>
+          {item.title}
+        </ItemTitle>
+
         <ItemTagsContainer>
           {item.tags.map((t) => (
             <ItemTag darkMode={theme.state.darkMode} key={t}>
