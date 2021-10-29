@@ -85,11 +85,7 @@ const PortfolioItem = ({ item }) => {
         </ItemTagsContainer>
       </ItemTitleWrapper>
 
-      <ItemDescription>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem itaque
-        atque expedita nesciunt amet deserunt quis, nostrum a aliquam illo nulla
-        impedit ad nam, enim dolorum eum recusandae alias. Amet.
-      </ItemDescription>
+      <ItemDescription>{item.description}</ItemDescription>
     </Container>
   );
 };
